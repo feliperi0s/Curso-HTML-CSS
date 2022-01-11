@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias</title>
+</head>
+<body>
+    <H1>TIPOS DE MIDIAS</H1>
+    <H2>FOTO</H2>
+    <p>
+        <picture>
+            <source media="(max-width:750px)" srcset="foto-p.png" type="image/png">
+            <source media="(max-width: 1050px)" srcset="foto-m.png" type="image/png">
+            <img src="foto-g.png" alt="a imagem flexivel funciona">
+        </picture>
+    </p>
+    <H2>AUDIO</H2>
+<p>
+    <audio preload="metadata" controls autoplay loop>
+    <source src="guanacast-33.mp3" type="audio/mpeg">
+    
+    </audio>
+</p>
+<H1>VIDEO</H1>
+<p>
+    <video width="600" poster="foto-p.png" controls autoplay >
+        <source src="Pexels-Ekaterina-Bolovtsova-5703372-1.webm" type="video/webm">
+    </video></p>
+    <p><iframe width="560" height="315" src="https://www.youtube.com/embed/b2NsK1wZ91Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+
+
+</body>
+</html>
